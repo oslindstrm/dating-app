@@ -1,2 +1,7 @@
 .idea
 global.json
+.vscode
+bin 
+obj
+.idea
+*.db
