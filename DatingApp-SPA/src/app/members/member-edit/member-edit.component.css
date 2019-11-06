@@ -1,3 +1,11 @@
+.user-title{
+  margin-left: 70px;
+}
+
+textarea{
+  color: white;
+}
+
 .img-thumbnail{
   margin: 25px;
   width: 85%;
@@ -5,7 +13,7 @@
 }
 
 .card-body{
-   padding: 0 25px;
+  padding: 0 25px;
 }
 
 .card-footer{
