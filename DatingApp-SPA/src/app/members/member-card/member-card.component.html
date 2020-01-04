@@ -1,7 +1,7 @@
 <div class="card mb-4 position-relative flex-fill">
   <div class="card-img-wrapper">
     <img class="card-img-top" src="{{user.photoUrl || '../../../assets/user.png'}}" alt="">
-    <ul class="list-inline member-icons animate text-center">
+    <ul class="list-inline member-icons animate mb-1 text-center">
       <li class="list-inline-item">
         <button class="btn btn-primary" [routerLink]="['/members/', user.id]">
           <i class="fa fa-user"></i>
@@ -10,7 +10,7 @@
           <i class="fa fa-heart"></i>
         </button>
         <button class="btn btn-primary">
-          <i class="fa fa-envelope"></i>
+          <i class="fa fa-envelope" [routerLink]="['/members/', user.id]" [queryParams]="{tab: 3}"></i>
         </button>
       </li>
     </ul>
