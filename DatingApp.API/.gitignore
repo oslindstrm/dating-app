@@ -4,3 +4,4 @@ obj
 .idea
 *.db
 appsettings.json
+wwwroot
